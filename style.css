@@ -1,0 +1,486 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  color: rgb(185, 185, 185);
+  opacity: 0.95;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.iphone11protext {
+  padding-top: 5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.iphone11prophoto {
+  width: 100vw;
+}
+
+.protitle {
+  font-size: 60px;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+}
+
+.prosecond {
+  font-size: 30px;
+  font-family: "SF Pro Display";
+}
+.proprice {
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(149, 149, 149);
+  font-family: "SF Pro Display";
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.link1 {
+  padding-right: 15px;
+  text-decoration: none;
+  color: rgb(47, 111, 231);
+}
+
+.link2 {
+  padding-left: 15px;
+  text-decoration: none;
+  color: rgb(47, 111, 231);
+}
+
+.searchbackground {
+  background-image: url("/photos/searchlogo.svg");
+  background-size: 18px 88px;
+  width: 18px;
+  background-position: 0px -10px;
+  background-repeat: no-repeat;
+}
+
+.cartbackground {
+  background-image: url("/photos/imagecart.svg");
+  background-size: 18px 88px;
+}
+
+.iphonetitle {
+  font-size: 60px;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+}
+
+.iphonesecond {
+  font-size: 30px;
+  font-family: "SF Pro Display";
+}
+.iphoneprice {
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(149, 149, 149);
+  font-family: "SF Pro Display";
+}
+
+.iphone11 {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+}
+
+.iphone11photo {
+  width: 100%;
+  padding-bottom: 12px;
+}
+.appletv {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.appletvphoto {
+  width: 100%;
+}
+.appletvtext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Pro Display";
+}
+
+.appletvlinks {
+  display: flex;
+  justify-content: space-around;
+  font-family: "SF Pro Display";
+}
+
+.appletvhugetext {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: "SF Pro Display";
+}
+
+.appletvmediumtext {
+  font-size: 20px;
+  padding-bottom: 12px;
+  font-family: "SF Pro Display";
+}
+
+.whitecircle {
+  background-color: white;
+  color: black;
+  padding: 12px;
+  border-radius: 40%;
+  font-family: "SF Pro Display";
+}
+
+.match {
+  padding-top: 12px;
+}
+
+.applewatch {
+  display: flex;
+  flex-direction: row;
+  font-family: "SF Pro Display";
+}
+
+.watch1 {
+  width: 100%;
+  font-family: "SF Pro Display";
+}
+
+.watch2 {
+  width: 100%;
+  font-family: "SF Pro Display";
+}
+
+.watchcontain {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "SF Pro Display";
+}
+
+.watchcontain2 {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "SF Pro Display";
+}
+
+.watch1text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Pro Display";
+}
+
+.watchtitle {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "SF Pro Display";
+}
+
+.series {
+  font-size: 12px;
+  color: rgb(205, 10, 10);
+  padding-bottom: 5px;
+  font-family: "SF Pro Display";
+}
+
+.watchtext {
+  font-size: 15px;
+  margin: 0px -30px 0px -30px;
+  font-family: "SF Pro Display";
+}
+
+.watch2text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 15px;
+  font-family: "SF Pro Display";
+}
+
+.watchlinks {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: "SF Pro Display";
+}
+
+.watchlink1 {
+  padding-right: 15px;
+  text-decoration: none;
+  color: rgb(47, 111, 231);
+  font-family: "SF Pro Display";
+}
+
+.watchlink2 {
+  padding-left: 15px;
+  text-decoration: none;
+  color: rgb(47, 111, 231);
+  font-family: "SF Pro Display";
+}
+
+/* .airpodscards {
+  display: flex;
+  flex-direction: row;
+  font-family: "SF Pro Display";
+}
+
+.airpodsphoto {
+  width: 200%;
+}
+
+.cardphoto {
+  width: 50%;
+} */
+
+.airpods {
+  display: flex;
+  flex-direction: row;
+}
+.airpods1 {
+  width: 51%;
+  font-family: "SF Pro Display";
+}
+
+.card1 {
+  width: 100%;
+}
+
+/* {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "SF Pro Display";
+  background-color: rgb(250, 250, 250);
+} */
+
+.cardcontain {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "SF Pro Display";
+}
+
+.cardtext {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Pro Display";
+}
+.cardtitle {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bottomrow {
+  display: flex;
+}
+
+.arcadephoto {
+  max-width: 100%;
+  height: auto;
+}
+
+.ipadphoto {
+  max-width: 100%;
+  height: auto;
+}
+
+.arcadecontain {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "SF Pro Display";
+}
+
+.arcadetext {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Pro Display";
+}
+
+.arcadelinks {
+  display: flex;
+}
+
+.arcadelink1 {
+  margin-right: 12px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.arcadelink2 {
+  margin-left: 12px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.arcadefirsttext {
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.arcademidtext {
+  font-size: 16px;
+}
+
+.iconhighlight:hover {
+  filter: brightness(200%);
+}
+
+.ipadcontain {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: "SF Pro Display";
+}
+
+.ipadtext {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "SF Pro Display";
+}
+
+.ipadlinks {
+  display: flex;
+  justify-content: center;
+}
+
+.ipadlink1 {
+  margin-right: 12px;
+  color: rgb(47, 111, 231);
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.ipadlink2 {
+  margin-left: 12px;
+  color: rgb(47, 111, 231);
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.ipadmaintext {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ipadmiddletext {
+  font-size: 14px;
+}
+.ipadweirdtext {
+  margin-bottom: -5px;
+  font-family: "Pacifico", cursive;
+}
+
+.ipadlink1 {
+  font-size: 15px;
+}
+
+.ipadlink2 {
+  font-size: 15px;
+}
+footer {
+  color: rgb(246, 246, 246);
+}
+
+.footertop {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.footertext {
+  padding: 10px 80px 10px 80px;
+  color: gray;
+  font-family: SF Pro Display;
+  font-size: 12px;
+}
+
+.footermid {
+  color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.columnsection {
+  display: flex;
+  flex-direction: column;
+}
+
+.normal {
+  padding-top: 15px;
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+  color: black;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.footerbottomtext {
+  margin-top: 60px;
+  color: gray;
+  text-indent: 3em;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.bottomlinks {
+  text-decoration: none;
+  color: rgb(56, 76, 253);
+}
+
+.copyright {
+  margin-top: 20px;
+  color: gray;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-bottom: 15px;
+}
+
+.black {
+  color: black;
+}
+
+.flag {
+  font-size: 30px;
+  margin-top: -8px;
+}
